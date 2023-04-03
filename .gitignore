@@ -6,4 +6,3 @@
 !.gitignore
 *swp
 *.mk.new
-conf.d/wato/passwords.mk

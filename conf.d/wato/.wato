@@ -1,1 +1,1 @@
-{'title': 'Main', 'attributes': {'meta_data': {'created_at': 1680563032.4535906, 'updated_at': 1680563093.7294009, 'created_by': None}, 'bake_agent_package': True}, 'num_hosts': 1, 'lock': False, 'lock_subfolders': False, '__id': 'a5fbc9eed1444f17aaa781a98fd5528a'}
+{'title': 'Main', 'attributes': {'meta_data': {'created_at': 1680563032.4535906, 'updated_at': 1680563962.9708261, 'created_by': None}, 'bake_agent_package': True}, 'num_hosts': 0, 'lock': False, 'lock_subfolders': False, '__id': 'a5fbc9eed1444f17aaa781a98fd5528a'}
