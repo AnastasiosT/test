@@ -85,7 +85,8 @@ host_check_commands = [
 {'condition': {'host_labels': {'cmk/docker_object': 'container'}},
  'id': '24da4ccd-0d1b-40e3-af87-0097df8668f2',
  'options': {'description': 'Make all docker container host states base on the '
-                            '"Docker container status" service'},
+                            '"Docker container status" service',
+             'disabled': False},
  'value': ('service', 'Docker container status')},
 ] + host_check_commands
 
