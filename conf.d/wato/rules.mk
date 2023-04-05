@@ -14,6 +14,38 @@ active_checks['cmk_inv'] = [
 ] + active_checks['cmk_inv']
 
 
+agent_config.setdefault('cmk_update_agent', [])
+
+agent_config['cmk_update_agent'] = [
+{'condition': {},
+ 'id': '68b60b88-fff7-458a-b294-249d71fe5958',
+ 'options': {'disabled': False},
+ 'value': {'activated': True,
+           'server_data': {'protocol': 'https',
+                           'server': 'localhost',
+                           'site': 'git',
+                           'usage': 'registration'},
+           'signature_keys': ['-----BEGIN CERTIFICATE-----\n'
+                              'MIIC1DCCAbwCAQEwDQYJKoZIhvcNAQEFBQAwLzEaMBgGA1UECgwRQ2hlY2tfTUsg\n'
+                              'U2l0ZSBnaXQxETAPBgNVBAMMCGNta2FkbWluMCAXDTIzMDQwNTE5MTkxN1oYDzIw\n'
+                              'NTMwMzI4MTkxOTE3WjAvMRowGAYDVQQKDBFDaGVja19NSyBTaXRlIGdpdDERMA8G\n'
+                              'A1UEAwwIY21rYWRtaW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDe\n'
+                              'mZz/g7oiDvW/p9pwi6ECYb9tXt8ZoktOSR5EN5ICRNz+61eykapVGR1NeK3z+ddn\n'
+                              'rmGnDp4xqRfJWyXyanTzUP4SWkPzehsd9RFnzM7Zs1QF01NbbwgqW1jyel5J56kC\n'
+                              'nYh8DdYdlcJRX561PnkOtceJLLp8Ix0MXji7pEzn4UbVBYxJVnSPM2ZcPKq6sf4w\n'
+                              'G08NnyAxcIwADZ4ZyvTtH0fF+f/gt+bmJPbBqnSbXlTRnW7lrmyUlR0E4pIeabJi\n'
+                              'OmlpjDGEEUGeY6Ap3R9FpkfxmT4yO9P3DEsHViuSkYSvut82l+k5e4gcm94HDOSh\n'
+                              'LXYLm3LGbRetT63d/2jHAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAE7k5d7mASWJ\n'
+                              'PATeOAoMJIZIPUzh8lETCpwFEGOdeJbc8YPawZyDgkx6kMCcoENqGHwkKGASikWG\n'
+                              'OKA+L2SDV1/AnlovQtIeqSnyQ6kiOphWnvXYpqegOSecgDlO+EBXFfmN8i/sjHYM\n'
+                              'Y+p1V9YCOJedXw5Z7cR5oSdZRaClzmyJJ7DfqZWt5obxmmR2VFoCSPgnLRSTugIK\n'
+                              'Gdmvevp01D5HuzVFPhaYAKc2LDAFEJ1odHDXhIDOOBfhNUFljQoF3Gi68cOHq4eq\n'
+                              'a2B/uRTYss6J0iIbq7/T8Y43hQiB4ZOILchBoWk0Er7GrlzdDjrnzrpgy3AFKqRc\n'
+                              'mWdvZAj19lc=\n'
+                              '-----END CERTIFICATE-----\n']}},
+] + agent_config['cmk_update_agent']
+
+
 globals().setdefault('bulkwalk_hosts', [])
 
 bulkwalk_hosts = [
