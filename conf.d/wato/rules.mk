@@ -136,16 +136,6 @@ cmc_service_rrd_config = [
 ] + cmc_service_rrd_config
 
 
-globals().setdefault('datasource_programs', [])
-
-datasource_programs = [
-{'condition': {'host_name': ['ame-ame-sws-prd01.arthrex.local-agent.txt']},
- 'id': '04a6deb4-2ca8-4a30-9529-8e812bbabc18',
- 'options': {'disabled': False},
- 'value': 'cat /home/anastasios/tribe29/Checkmk/agents/$HOSTNAME$'},
-] + datasource_programs
-
-
 extra_host_conf.setdefault('notification_options', [])
 
 extra_host_conf['notification_options'] = [
