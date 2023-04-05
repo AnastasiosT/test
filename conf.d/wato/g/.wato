@@ -1,1 +1,1 @@
-{'title': 'g', 'attributes': {'meta_data': {'created_at': 1680565322.0239227, 'updated_at': 1680565322.0244236, 'created_by': 'cmkadmin'}}, 'num_hosts': 0, 'lock': False, 'lock_subfolders': False, '__id': 'b0a7c0d609064c7ea72360c4e9e90163'}
+{'title': 'g', 'attributes': {'meta_data': {'created_at': 1680565322.0, 'created_by': 'cmkadmin', 'updated_at': 1680729260.7899323}, 'tag_address_family': 'no-ip', 'tag_agent': 'no-agent'}, 'num_hosts': 0, 'lock': False, 'lock_subfolders': False, '__id': 'b0a7c0d609064c7ea72360c4e9e90163'}
