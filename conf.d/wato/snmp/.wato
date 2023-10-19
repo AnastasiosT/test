@@ -1,0 +1,1 @@
+{'title': 'snmp', 'attributes': {'meta_data': {'created_at': 1682080176.0, 'created_by': 'cmkadmin', 'updated_at': 1697044087.3596106}, 'tag_address_family': 'no-ip', 'tag_agent': 'no-agent', 'tag_snmp_ds': 'snmp-v1', 'tag_criticality': 'offline'}, 'num_hosts': 9, 'lock': False, 'lock_subfolders': False, '__id': '21fa5623476244f6861cc761a36c241d'}

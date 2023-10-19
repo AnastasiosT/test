@@ -1,0 +1,1 @@
+{'title': 'cache', 'attributes': {'meta_data': {'created_at': 1681389712.0, 'created_by': 'cmkadmin', 'updated_at': 1697737877.506236}, 'tag_address_family': 'no-ip', 'tag_criticality': 'offline'}, 'num_hosts': 15, 'lock': False, 'lock_subfolders': False, '__id': '0c7a2f8aae3b44baaf25192392621475'}

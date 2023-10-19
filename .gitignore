@@ -1,0 +1,8 @@
+# This file is under control of Checkmk. Please don't modify it.
+# Your changes will be overwritten.
+
+*
+!*.d
+!.gitignore
+*swp
+*.mk.new
